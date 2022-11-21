@@ -38,6 +38,8 @@ scopeNetLife { // 创建作用域
         param("pwd", "123456")
     }.await() // 发起GET请求并返回`String`类型数据
 }
+
+param()中参数encoded = true即等于retrofit修饰注解@FormUrLEncoded
 ```
 
 |请求函数|描述|
